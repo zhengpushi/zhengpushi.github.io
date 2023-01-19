@@ -1,42 +1,48 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-<title>ZhengPu Shi</title>
-<meta charset="utf-8">
+  <head>
+	<title>ZhengPu Shi</title>
+	<meta charset="utf-8">
 
-<link href="inc/main.css" type="text/css" rel="stylesheet" />
+	<link href="inc/main.css" type="text/css" rel="stylesheet" />
 
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
-</script>
-<![endif]-->
-</head>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+		</script>
+		<![endif]-->
+		 </head>
 
-<body>
+  <body>
+	<div id="header"></div>
+	<script>$("#header").load("inc/header.html");</script>
+	<section>
 
-<!-- <div data-include="inc/header.html"></div> -->
-<!-- #include virtual="inc/header.html" -->
-<section>
+	  <h2>Homepage of ZhengPu Shi</h2>
+	  I am a Ph.D. student at Nanjing University of Aeronautics and Astronautics from 2021 to 2024.
+	  <br/>
+	  My main research direction is formal verification and theorem proving.
+	  <br/>
 
-  <h2>Welcome to my homepage</h2>
-I am a PhD student in Nanjing University of Aeronautics and Astronautics from 2021 to 2024.
+	  Contact me: zhengpushi@nuaa.edu.cn
+	  
+	  <br/>
+	  <br/>
+	  Here are some projects charged by me.
 
-Here are some projects charged by me.
+	  <article>
+		<h2>CoqMatrix</h2>
+		<p>This is a formal matrix library in Coq, and integrated with multiple different implementations.</p>
+		<p>Our goal is to provide a unified framework for different implementations of formalized matrix libraries, so as to decouple the differences between underlying technologies and upper-level applications.</p>
+		<p> The detail please go to <a href="https://github.com/zhengpushi/CoqMatrix/">CoqMatrix github homepage</a></p>
+	  </article>
 
-<article>
-<h2>CoqMatrix</h2>
-<p>This is a formal matrix library in Coq, and integrated with multiple different implementations.</p>
-<p>Our goal is to provide a unified framework for different implementations of formalized matrix libraries, so as to decouple the differences between underlying technologies and upper-level applications.</p>
-<p> The detail please go to <a href="https://github.com/zhengpushi/CoqMatrix/">CoqMatrix github homepage</a></p>
-</article>
+	  <article>
+		<h2>VFCS</h2>
+	  </article>
 
-<article>
-<h2>VFCS</h2>
-</article>
+	</section>
 
-</section>
-
-<!-- <div data-include="inc/footer.html"></div> -->
-<!-- #include virtual="inc/footer.html" -->
-</body>
+	<div id="footer"></div>
+	<script>$("#footer").load("inc/footer.html");</script>
+  </body>
 </html>
