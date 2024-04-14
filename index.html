@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
   <head>
-	<title>Homepage of ZhengPu Shi</title>
+	<title>ZhengPu Shi - Homepage</title>
 	<meta charset="utf-8">
 	<link href="inc/main.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="inc/main.js"></script>
@@ -11,32 +11,83 @@
 	<iframe scrolling="no" src="inc/header.html" frameborder="0" height="100" width="400"></iframe>
 	
 	<section>
-
-	  <h2>Homepage of ZhengPu Shi</h2>
-	  I am a Ph.D. student at Nanjing University of Aeronautics and Astronautics from 2021 to 2024.
+	  <h2>ABOUT ME</h2>
+	  I am a Ph.D. student at Nanjing University of Aeronautics and Astronautics from 2019.09 to 2024/E.
 	  <br/>
 	  My main research direction is formal verification and theorem proving.
 	  <br/>
+	  <br/>
+	  <p>Github: <a href="https://github.com/zhengpushi">https://github.com/zhengpushi</a> </p>
+	  <p>Email: <a href="mailto:zhengpushi@nuaa.edu.cn">zhengpushi@nuaa.edu.cn</a></p>
+	</section>
+	<br />
+	
+	<section>	  
+	  <h2>PUBLICATIONS</h2>
 
-	  Contact me: <a href="mailto:zhengpushi@nuaa.edu.cn">zhengpushi@nuaa.edu.cn</a>
+	  <section>	  
+		<h3>CoqMatrix: Formal matrix library with multiple models in Coq</h3>
+		<p><b>Date:</b>Oct, 2023
+		<p><b>Author:</b> ZhengPu Shi, GuoJun Xie, Gang Chen
+		<p><b>Type</b> Journal Article (CCF-B Journal)
+		<p>
+		  <b>Journal:</b> <a href="https://www.sciencedirect.com/journal/journal-of-systems-architecture">Journal of Systems Architecture</a>
+		  <b>DOI:</b> <a href="https://doi.org/10.1016/j.sysarc.2023.102986">doi.org/10.1016/j.sysarc.2023.102986</a>
+		  <b>Paper URL:</b> <a href="https://www.sciencedirect.com/science/article/pii/S1383762123001650">online paper</a>
+	  </section>
+
+	  <section>	  
+		<h3>Integration of Multiple Formal Matrix Models in Coq</h3>
+		<p><b>Date:</b>Dec, 2022
+		<p><b>Author:</b> ZhengPu Shi & Gang Chen
+		<p><b>Type</b> Conference proceedings (CCF-C Conference)
+		<p>
+		  <b>Conference:</b> <a href="https://link.springer.com/conference/setta">SETTA 2022</a>
+		  <b>DOI:</b> <a href="https://doi.org/10.1007/978-3-031-21213-0_11">10.1007/978-3-031-21213-0_11</a>
+		  <b>Paper URL:</b> <a href="https://link.springer.com/chapter/10.1007/978-3-031-21213-0_11">online paper</a>
+	  </section>
 	  
-	  <br/>
-	  <br/>
-	  Here are some projects charged by me.
+	  <section>	  
+		<h3>多旋翼飞控推进子系统的Coq形式化验证</h3>
+		<p>Coq Formalization of Propulsion Subsystem of Flight Control System for Multicopter
+		<p><b>Date:</b>June, 2022
+		<p><b>Author:</b> 石正璞,崔敏,谢果君,陈钢
+		<p><b>Type</b> Journal Article (CCF-A类中文期刊)
+		<p>
+		  <b>DOI:</b> <a href="http://dx.doi.org/10.13328/j.cnki.jos.006575">10.13328/j.cnki.jos.006575</a>
+		  <b>Journal:</b> <a href="http://www.jos.org.cn">Journal of Software (软件学报)</a>
+		  <b>Paper URL:</b> <a href="https://www.jos.org.cn/jos/article/abstract/6575">online paper</a>
+		<p><b>Chinese keywords:</b> 形式化验证;定理证明;多旋翼飞行器;飞行控制系统;推进系统;Coq;Ocaml
+	  </section>
+	</section>
+	<br />
+	
+	<section>	  
+	  <h2>PROJECTS</h2>
 
 	  <article>
-		<h2>CoqMatrix</h2>
+		<h3>CoqMatrix</h3>
 		<p>This is a formal matrix library in Coq, and integrated with multiple different implementations.</p>
 		<p>Our goal is to provide a unified framework for different implementations of formalized matrix libraries, so as to decouple the differences between underlying technologies and upper-level applications.</p>
-		<p> The detail please go to <a href="https://github.com/zhengpushi/CoqMatrix/">CoqMatrix github homepage</a></p>
+		<p><a href="coq-matrix.html">CoqMatrix Project</a> &nbsp;&nbsp;&nbsp;
+		  <a href="https://github.com/zhengpushi/CoqMatrix/">CoqMatrix github</a></p>
 	  </article>
 
 	  <article>
-		<h2>VFCS</h2>
+		<h3>VFCS</h3>
 		<p>Verified Flight Control System (VFCS) is an academic project for study the FCS software by theorem prover Coq.</p>
 		<p>We adopt the idea of construct-correct to analysis, modeling and design the FCS.</p>
 		<p>Coq proof assistant is a higher-order logic theorem prover based on Calculus of Inductive Constructions.</p>
 		<p>We mainly study the Multicopter at the first stage.</p>
+		<p>
+		  <a href="vfcs.html">VFCS Homepage</a> &nbsp;&nbsp;&nbsp;
+		  <a href="https://github.com/zhengpushi/VFCS/">VFCS github</a>
+	  </article>
+
+	  <article>
+		<h3>Formalization of Two Inversion Matrix Algorithms with FinMatrix</h3>
+		<p>We started from finite sets, constructed vectors based on finite sets, and matrices based on vectors.
+		  This implementation differs from he extensive nature of the CoqMatrix project, but uses only one model for in-depth matrix theory development.
 	  </article>
 
 	</section>
