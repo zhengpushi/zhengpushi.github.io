@@ -83,63 +83,6 @@ digraph dependencies {
 "FinMatrix.CoqExt.RExt"[label="RExt"
 	, style=filled, fillcolor=lightblue 
 	, URL="FinMatrix.CoqExt.RExt.html"]
-"FinMatrix.CoqExt.RExt.RExtAtan2"[label="RExtAtan2"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtAtan2.html"]
-"FinMatrix.CoqExt.RExt.RExtTrigo"[label="RExtTrigo"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtTrigo.html"]
-"FinMatrix.CoqExt.RExt.RExtApprox"[label="RExtApprox"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtApprox.html"]
-"FinMatrix.CoqExt.RExt.RExtLog"[label="RExtLog"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtLog.html"]
-"FinMatrix.CoqExt.RExt.RExtExp"[label="RExtExp"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtExp.html"]
-"FinMatrix.CoqExt.RExt.RExtSign"[label="RExtSign"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtSign.html"]
-"FinMatrix.CoqExt.RExt.RExtAbs"[label="RExtAbs"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtAbs.html"]
-"FinMatrix.CoqExt.RExt.RExtSqrt"[label="RExtSqrt"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtSqrt.html"]
-"FinMatrix.CoqExt.RExt.RExtSqr"[label="RExtSqr"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtSqr.html"]
-"FinMatrix.CoqExt.RExt.RExtInv"[label="RExtInv"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtInv.html"]
-"FinMatrix.CoqExt.RExt.RExtPow"[label="RExtPow"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtPow.html"]
-"FinMatrix.CoqExt.RExt.RExtMult"[label="RExtMult"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtMult.html"]
-"FinMatrix.CoqExt.RExt.RExtOpp"[label="RExtOpp"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtOpp.html"]
-"FinMatrix.CoqExt.RExt.RExtPlus"[label="RExtPlus"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtPlus.html"]
-"FinMatrix.CoqExt.RExt.RExtLt"[label="RExtLt"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtLt.html"]
-"FinMatrix.CoqExt.RExt.RExtBool"[label="RExtBool"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtBool.html"]
-"FinMatrix.CoqExt.RExt.RExtStruct"[label="RExtStruct"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtStruct.html"]
-"FinMatrix.CoqExt.RExt.RExtCvt"[label="RExtCvt"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtCvt.html"]
-"FinMatrix.CoqExt.RExt.RExtBase"[label="RExtBase"
-	, style=filled, fillcolor=lightblue 
-	, URL="FinMatrix.CoqExt.RExt.RExtBase.html"]
 "FinMatrix.CoqExt.QcExt"[label="QcExt"
 	, style=filled, fillcolor=lightblue 
 	, URL="FinMatrix.CoqExt.QcExt.html"]
@@ -174,6 +117,7 @@ digraph dependencies {
 	, style=filled, fillcolor=lightblue 
 	, URL="FinMatrix.CoqExt.Basic.html"]
 "FinMatrix.CoqExt.RExt" -> "FinMatrix.CoqExt.Complex"
+"FinMatrix.Matrix.ElementType" -> "FinMatrix.CoqExt.Complex"
 "FinMatrix.CoqExt.Basic" -> "FinMatrix.CoqExt.Hierarchy"
 "FinMatrix.CoqExt.BoolExt" -> "FinMatrix.CoqExt.Hierarchy"
 "FinMatrix.CoqExt.Hierarchy" -> "FinMatrix.CoqExt.LinearSpace"
@@ -185,43 +129,6 @@ digraph dependencies {
 "FinMatrix.CoqExt.ZExt" -> "FinMatrix.CoqExt.QExt"
 "FinMatrix.CoqExt.QExt" -> "FinMatrix.CoqExt.QcExt"
 "FinMatrix.CoqExt.RFunExt" -> "FinMatrix.CoqExt.RAnalysisExt"
-"FinMatrix.CoqExt.RExt.RExtApprox" -> "FinMatrix.CoqExt.RExt"
-"FinMatrix.CoqExt.RExt.RExtAtan2" -> "FinMatrix.CoqExt.RExt"
-"FinMatrix.CoqExt.RExt.RExtExp" -> "FinMatrix.CoqExt.RExt"
-"FinMatrix.CoqExt.RExt.RExtLog" -> "FinMatrix.CoqExt.RExt"
-"FinMatrix.CoqExt.RExt.RExtPow" -> "FinMatrix.CoqExt.RExt"
-"FinMatrix.CoqExt.RExt.RExtSign" -> "FinMatrix.CoqExt.RExt"
-"FinMatrix.CoqExt.RExt.RExtSqrt" -> "FinMatrix.CoqExt.RExt"
-"FinMatrix.CoqExt.RExt.RExtBool" -> "FinMatrix.CoqExt.RExt.RExtAbs"
-"FinMatrix.CoqExt.RExt.RExtAbs" -> "FinMatrix.CoqExt.RExt.RExtApprox"
-"FinMatrix.CoqExt.RExt.RExtLt" -> "FinMatrix.CoqExt.RExt.RExtAtan2"
-"FinMatrix.CoqExt.RExt.RExtTrigo" -> "FinMatrix.CoqExt.RExt.RExtAtan2"
-"FinMatrix.CoqExt.Hierarchy" -> "FinMatrix.CoqExt.RExt.RExtBase"
-"FinMatrix.CoqExt.RExt.RExtStruct" -> "FinMatrix.CoqExt.RExt.RExtBool"
-"FinMatrix.CoqExt.NatExt" -> "FinMatrix.CoqExt.RExt.RExtCvt"
-"FinMatrix.CoqExt.QcExt" -> "FinMatrix.CoqExt.RExt.RExtCvt"
-"FinMatrix.CoqExt.RExt.RExtBase" -> "FinMatrix.CoqExt.RExt.RExtCvt"
-"FinMatrix.CoqExt.RExt.RExtBase" -> "FinMatrix.CoqExt.RExt.RExtExp"
-"FinMatrix.CoqExt.RExt.RExtBase" -> "FinMatrix.CoqExt.RExt.RExtInv"
-"FinMatrix.CoqExt.RExt.RExtBase" -> "FinMatrix.CoqExt.RExt.RExtLog"
-"FinMatrix.CoqExt.RExt.RExtAbs" -> "FinMatrix.CoqExt.RExt.RExtLt"
-"FinMatrix.CoqExt.RExt.RExtSqr" -> "FinMatrix.CoqExt.RExt.RExtLt"
-"FinMatrix.CoqExt.RExt.RExtBase" -> "FinMatrix.CoqExt.RExt.RExtMult"
-"FinMatrix.CoqExt.RExt.RExtBase" -> "FinMatrix.CoqExt.RExt.RExtOpp"
-"FinMatrix.CoqExt.RExt.RExtBase" -> "FinMatrix.CoqExt.RExt.RExtPlus"
-"FinMatrix.CoqExt.RExt.RExtSqr" -> "FinMatrix.CoqExt.RExt.RExtPow"
-"FinMatrix.CoqExt.RExt.RExtLt" -> "FinMatrix.CoqExt.RExt.RExtSign"
-"FinMatrix.CoqExt.RExt.RExtBool" -> "FinMatrix.CoqExt.RExt.RExtSqr"
-"FinMatrix.CoqExt.RExt.RExtMult" -> "FinMatrix.CoqExt.RExt.RExtSqr"
-"FinMatrix.CoqExt.RExt.RExtPlus" -> "FinMatrix.CoqExt.RExt.RExtSqr"
-"FinMatrix.CoqExt.RExt.RExtAbs" -> "FinMatrix.CoqExt.RExt.RExtSqrt"
-"FinMatrix.CoqExt.RExt.RExtInv" -> "FinMatrix.CoqExt.RExt.RExtSqrt"
-"FinMatrix.CoqExt.RExt.RExtOpp" -> "FinMatrix.CoqExt.RExt.RExtSqrt"
-"FinMatrix.CoqExt.RExt.RExtSqr" -> "FinMatrix.CoqExt.RExt.RExtSqrt"
-"FinMatrix.CoqExt.RExt.RExtCvt" -> "FinMatrix.CoqExt.RExt.RExtStruct"
-"FinMatrix.CoqExt.RExt.RExtInv" -> "FinMatrix.CoqExt.RExt.RExtTrigo"
-"FinMatrix.CoqExt.RExt.RExtOpp" -> "FinMatrix.CoqExt.RExt.RExtTrigo"
-"FinMatrix.CoqExt.RExt.RExtSqr" -> "FinMatrix.CoqExt.RExt.RExtTrigo"
 "FinMatrix.CoqExt.FuncExt" -> "FinMatrix.CoqExt.RFunExt"
 "FinMatrix.CoqExt.RExt" -> "FinMatrix.CoqExt.RFunExt"
 "FinMatrix.Matrix.ElementType" -> "FinMatrix.CoqExt.ZExt"
@@ -232,8 +139,10 @@ digraph dependencies {
 "FinMatrix.Matrix.MatrixModule" -> "FinMatrix.Matrix.MatrixC"
 "FinMatrix.Matrix.Permutation" -> "FinMatrix.Matrix.MatrixDet"
 "FinMatrix.CoqExt.MyExtrOCamlR" -> "FinMatrix.Matrix.MatrixGauss"
+"FinMatrix.CoqExt.QcExt" -> "FinMatrix.Matrix.MatrixGauss"
 "FinMatrix.Matrix.Matrix" -> "FinMatrix.Matrix.MatrixGauss"
 "FinMatrix.Matrix.MatrixInvBase" -> "FinMatrix.Matrix.MatrixInvAM"
+"FinMatrix.CoqExt.QcExt" -> "FinMatrix.Matrix.MatrixInvAM_test"
 "FinMatrix.Matrix.MatrixInvAM" -> "FinMatrix.Matrix.MatrixInvAM_test"
 "FinMatrix.Matrix.MatrixDet" -> "FinMatrix.Matrix.MatrixInvBase"
 "FinMatrix.Matrix.MatrixGauss" -> "FinMatrix.Matrix.MatrixInvGE"
